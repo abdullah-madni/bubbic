@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jquery -->
+    <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-dark navbar-expand-lg" id="myNavbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/navbar-img1.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse pt-2 py-lg-2" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Bubbicが選ばれる理由</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">製作事例</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">製作の流れ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">よくある質問</a>
+                    </li>
+                </ul>
+                <div class="navbar-right">
+                    <span class="text-main">お問い合わせはこちらから</span>
+                    <button class="navbar-btn">
+                        <img src="img/navbar-img2.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- section 1 -->
+    <div id="section1">
+        <div class="main-content">
+            <img class="img-main" src="img/section1-img1.png" alt="">
+            <p class="para-main1">
+                イベントで余ったり
+                消費しにくくなった
+                オリシャンでお困り
+                ではないですか？
+            </p>
+            <p class="para-main2">
+                <span>ラベルの張り替え</span>は<br>Bubbicにお任せください!
+            </p>
+        </div>
+    </div>
+
+    <!-- section 2 -->
+    <div id="section2">
+        <div class="main-content">
+            <div class="part-0">
+                オリシャン作成や<br>ラベル張り替えで<br>Bubbicが選ばれる理由
+            </div>
+            <div class="part-1">
+                <img src="img/section2-img1.gif" class="img-main">
+                <p class="para-main">
+                    張り替えの商品をお預かりしてから<br><span>営業日3日</span>で発送
+                </p>
+                <p class="sub-para">お急ぎの予定でもBubbicならすぐにお届け！</p>
+            </div>
+            <div class="part-2">
+                <img src="img/section2-img2.gif" class="img-main">
+                <p class="para-main">
+                    <span>プロのデザイナー</span>による<br>ラベルデザイン
+                </p>
+                <p class="sub-para">
+                    デザインが決まっていなくてもOK！<br>
+                    要望を伺いながらデザインを作成することができます。
+                </p>
+            </div>
+            <div class="part-3">
+                <img src="img/section2-img3.gif" class="img-main">
+                <p class="para-main">
+                    全国配送可能
+                </p>
+                <p class="sub-para">
+                    全国どこでもご注文、お届けが可能です！<br>
+                    ※大阪府以外は4日営業日でお届けになります。
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- slider -->
+    <div style="background-color: #000;">
+        <div class="splide" role="group" id="txtSlider">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide slide-text">BUBBIC ORIGINAL Champagne</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 3 -->
+    <div id="section3">
+        <div class="main-content">
+            <div class="part-1">実際の製作事例</div>
+            <div class="part-2">
+                <div class="splide" role="group" id="ImgSlider">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide"><img src="img/section3-img1.png"></li>
+                            <li class="splide__slide"><img src="img/section3-img2.png"></li>
+                            <li class="splide__slide"><img src="img/section3-img3.png"></li>
+                            <li class="splide__slide"><img src="img/section3-img4.png"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="part-3">
+                <p class="para-main">
+                    製作事例からデザインのご相談も可能です
+                    <span>Instagramにて製作事例を公開しておりますので是非ご覧ください</span>
+                    <a href="#">@bubbic.inc</a>
+                </p>
+                <button class="btn-main">LINEでお問い合わせ</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 4 -->
+    <div id="s4_bg_img"></div>
+    <div id="section4">
+        <div class="main-content">
+            <div class="part-1">製作の流れ</div>
+            <div class="part-2">
+                <div class="r1">
+                    <button class="btn-main">LINE@登録</button>
+                    <span class="para-main"> Bubbic公式LINEを追加</span>
+                </div>
+                <div class="r2">
+                    <button class="btn-main">本数確認<br>希望デザイン確認</button>
+                    <span class="para-main">
+                        オリシャンに関する情報をお伺いします。
+                        <br>
+                        <span>※ここで見積もりをお出しします</span>
+                    </span>
+                </div>
+                <div class="r3">
+                    <button class="btn-main">張り替え分<br>発送＆入金</button>
+                    <span class="para-main">
+                        <span>お客様から張り替え分の商品をBubbicへ発送していただきます。</span>
+                        <br>
+                        同時にデザイン費用と制作費用の入金確認後に製作を開始いたします。
+                    </span>
+                </div>
+                <div class="r4">
+                    <button class="btn-main">デザイン作成<br>確認</button>
+                    <span class="para-main">
+                        ラベルデザインをデザイナーが作成致しますので、ご確認して<br>いただきます。
+                    </span>
+                </div>
+                <div class="r5">
+                    <button class="btn-main">製作・発送</button>
+                    <span class="para-main">3~4営業日でお届け致します</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- section 5 -->
+    <div id="section5">
+        <div class="main-content">
+            <div class="part-1">よくあるご質問</div>
+            <div class="my-row">
+
+                <div class="part-2">
+                    <img src="img/section5-img.png">
+                </div>
+                <div class="part-3">
+                    <ul id="myAccord">
+                        <li>
+                            <div class="header">Q.注文してからどのくらいで納品ですか？</div>
+                            <div class="body">
+                                <span>A. </span>デザイン完成次第最短3日の発送になります。 <br>
+                                （本数、発注状況により納期が前後する場合があります。）
+                            </div>
+                        </li>
+                        <li>
+                            <div class="header">Q.注文してからどのくらいで納品ですか？</div>
+                            <div class="body">
+                                <span>A. </span>デザイン完成次第最短3日の発送になります。 <br>
+                                （本数、発注状況により納期が前後する場合があります。）
+                            </div>
+                        </li>
+                        <li>
+                            <div class="header">Q.注文してからどのくらいで納品ですか？</div>
+                            <div class="body">
+                                <span>A. </span>デザイン完成次第最短3日の発送になります。 <br>
+                                （本数、発注状況により納期が前後する場合があります。）
+                            </div>
+                        </li>
+                        <li>
+                            <div class="header">Q.注文してからどのくらいで納品ですか？</div>
+                            <div class="body">
+                                <span>A. </span>デザイン完成次第最短3日の発送になります。 <br>
+                                （本数、発注状況により納期が前後する場合があります。）
+                            </div>
+                        </li>
+                        <li>
+                            <div class="header">Q.注文してからどのくらいで納品ですか？</div>
+                            <div class="body">
+                                <span>A. </span>デザイン完成次第最短3日の発送になります。 <br>
+                                （本数、発注状況により納期が前後する場合があります。）
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- section 6 -->
+    <div id="section6">
+        <div class="main-content">
+            <p class="para-main">
+                Bubbicは張り替え以外に<br>
+                オリシャンの新規発注も行っております！<br>
+                まずはLINEでご相談からお待ちしております！
+            </p>
+            <button class="btn-main">
+                <img src="img/section6-img1.png">
+            </button>
+            <img src="img/section6-img2.png" class="img-main">
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <footer>
+        <img src="img/footer-logo.png" class="img-main">
+        <p class="para-main">Thank you for using it all the time.</p>
+        <p class="sub-para">@Bubbic.inc  2023</p>
+    </footer>
+
+
+
+    <!-- scripts -->
+    <script src="js/splide.js"></script>
+    <script src="js/splide-extension-auto-scroll.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/myScript.js"></script>
+</body>
+
+</html>
